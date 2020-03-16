@@ -13,7 +13,7 @@
     <PackageReference Include="ActiveCaching" Version="1.0.1" />
     <PackageReference Include="ActiveErrors" Version="1.0.2" />
     <PackageReference Include="ActiveOptions" Version="1.0.2" />
-    <PackageReference Include="ActiveRoutes" Version="1.0.7" />
+    <PackageReference Include="ActiveRoutes" Version="1.0.8" />
     <PackageReference Include="Sodium.Core" Version="1.2.2" />
     <PackageReference Include="TypeKitchen" Version="1.2.7" />
   </ItemGroup>
