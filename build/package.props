@@ -1,0 +1,18 @@
+<Project>
+
+  <PropertyGroup>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Daniel Crenna &amp; Contributors</Authors>
+    <Description>Simple middleware for tenant management in .NET Core.</Description>
+    <Copyright>Copyright © Daniel Crenna &amp; Contributors. All rights reserved.</Copyright>
+    <PackageIconUrl>https://raw.githubusercontent.com/danielcrenna/ActiveTenant/master/assets/logo.png</PackageIconUrl>
+    <PackageProjectUrl>https://github.com/danielcrenna/ActiveTenant</PackageProjectUrl>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/danielcrenna/ActiveTenant</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>dynamic tenant middleware</PackageTags>
+    <Version>1.0.0</Version>
+    <PackageReleaseNotes>Initial implementation.</PackageReleaseNotes>
+  </PropertyGroup>
+
+</Project>

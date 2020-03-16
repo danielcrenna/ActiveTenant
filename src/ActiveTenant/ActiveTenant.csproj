@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="$(ProjectDir)..\..\build\package.props" />
+  <Import Project="$(ProjectDir)..\..\build\build.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Configurations>Debug;Release;Package</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+    <PackageReference Include="ActiveErrors" Version="1.0.2" />
+    <PackageReference Include="ActiveRoutes" Version="1.0.7" />
+    <PackageReference Include="Sodium.Core" Version="1.2.2" />
+    <PackageReference Include="TypeKitchen" Version="1.2.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="ErrorStrings.Designer.cs">
+      <DependentUpon>ErrorStrings.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="ErrorStrings.resx">
+      <LastGenOutput>ErrorStrings.Designer.cs</LastGenOutput>
+      <Generator>ResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
