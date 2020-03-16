@@ -4,7 +4,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Identity;
 
-namespace HQ.Platform.Identity.Models
+namespace ActiveTenant
 {
 	public class CreateTenantModel
 	{

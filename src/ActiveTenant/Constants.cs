@@ -21,6 +21,7 @@ namespace ActiveTenant
 		public static class ContextKeys
 		{
 			public const string Tenant = nameof(Tenant);
+			public const string Application = nameof(Application);
 		}
 	}
 }

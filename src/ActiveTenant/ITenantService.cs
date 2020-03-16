@@ -4,7 +4,6 @@
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using ActiveErrors;
-using HQ.Platform.Identity.Models;
 
 namespace ActiveTenant
 {
