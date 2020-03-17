@@ -11,8 +11,8 @@
     <RepositoryUrl>https://github.com/danielcrenna/ActiveTenant</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>dynamic tenant middleware</PackageTags>
-    <Version>1.0.2</Version>
-    <PackageReleaseNotes>Added UseMultiTenancy methods.</PackageReleaseNotes>
+    <Version>1.0.3</Version>
+    <PackageReleaseNotes>Update dependencies.</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
