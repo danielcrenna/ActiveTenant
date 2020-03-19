@@ -6,7 +6,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using ActiveCaching;
 using ActiveTenant.Configuration;
-using HQ.Platform.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
